@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-configmap
+data:
+  database_url: db-service
+  mysql_db: wordpress_db
+  key: value 
